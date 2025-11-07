@@ -1,0 +1,42 @@
+[
+ {
+  "Description": "Identified a Private Key, which may compromise cryptographic security and sensitive data encryption.",
+  "StartLine": 17,
+  "EndLine": 23,
+  "StartColumn": 10,
+  "EndColumn": 37,
+  "Match": "-----BEGIN RSA PRIVATE KEY-----\",\n\tcert = \"-----BEGIN CERTIFICATE-----\",\n\trequest = \"-----BEGIN CERTIFICATE REQUEST-----\"\n}\n\nlocal postamble = {\n\tkey = \"-----END RSA PRIVATE KEY----",
+  "Secret": "-----BEGIN RSA PRIVATE KEY-----\",\n\tcert = \"-----BEGIN CERTIFICATE-----\",\n\trequest = \"-----BEGIN CERTIFICATE REQUEST-----\"\n}\n\nlocal postamble = {\n\tkey = \"-----END RSA PRIVATE KEY----",
+  "File": "libs/luci-lib-px5g/lua/px5g/util.lua",
+  "SymlinkFile": "",
+  "Commit": "f17c54119dff9a8e62806d8200de9d48f0d28bbf",
+  "Entropy": 4.544084,
+  "Author": "Dirk Brenken",
+  "Email": "dev@brenken.org",
+  "Date": "2025-11-06T22:51:56Z",
+  "Message": "luci-app-travelmate: sync with update 2.2.1-4\n\nSigned-off-by: Dirk Brenken \u003cdev@brenken.org\u003e",
+  "Tags": [],
+  "RuleID": "private-key",
+  "Fingerprint": "f17c54119dff9a8e62806d8200de9d48f0d28bbf:libs/luci-lib-px5g/lua/px5g/util.lua:private-key:17"
+ },
+ {
+  "Description": "Identified a Private Key, which may compromise cryptographic security and sensitive data encryption.",
+  "StartLine": 466,
+  "EndLine": 467,
+  "StartColumn": 30,
+  "EndColumn": 58,
+  "Match": "-----BEGIN RSA PRIVATE KEY-----\\n\",\n                key_end[] = \"-----END RSA PRIVATE KEY----",
+  "Secret": "-----BEGIN RSA PRIVATE KEY-----\\n\",\n                key_end[] = \"-----END RSA PRIVATE KEY----",
+  "File": "libs/luci-lib-px5g/src/library/x509write.c",
+  "SymlinkFile": "",
+  "Commit": "f17c54119dff9a8e62806d8200de9d48f0d28bbf",
+  "Entropy": 3.8830903,
+  "Author": "Dirk Brenken",
+  "Email": "dev@brenken.org",
+  "Date": "2025-11-06T22:51:56Z",
+  "Message": "luci-app-travelmate: sync with update 2.2.1-4\n\nSigned-off-by: Dirk Brenken \u003cdev@brenken.org\u003e",
+  "Tags": [],
+  "RuleID": "private-key",
+  "Fingerprint": "f17c54119dff9a8e62806d8200de9d48f0d28bbf:libs/luci-lib-px5g/src/library/x509write.c:private-key:466"
+ }
+]

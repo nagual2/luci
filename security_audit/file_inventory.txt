@@ -1,0 +1,37 @@
+=== File Inventory ===
+
+--- Markdown files (.md) ---
+25
+
+--- Text files (.txt) ---
+4
+
+--- JavaScript files (.js) ---
+430
+
+--- Lua files (.lua) ---
+109
+
+--- Shell scripts (.sh) ---
+13
+
+--- YAML files (.yml, .yaml) ---
+11
+
+--- JSON files (.json) ---
+353
+
+--- Config files (.conf, .config) ---
+0
+
+--- Environment files (.env) ---
+0
+
+--- Makefiles (Makefile, *.mk) ---
+173
+
+--- Certificate/Key files (.pem, .crt, .key) ---
+0
+
+--- Total files scanned ---
+5024

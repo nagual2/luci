@@ -1,0 +1,11 @@
+=== Security Audit Tool Versions ===
+Date: $(date -u +"%Y-%m-%d %H:%M:%S UTC")
+
+Gitleaks: 8.18.2
+TruffleHog: 3.63.7
+Ripgrep: 14.1.0
+
+Git repository information:
+Repository: $(git remote get-url origin 2>/dev/null || echo "Local repository")
+Branch: $(git branch --show-current)
+Last commit: $(git log -1 --format="%H - %s" 2>/dev/null)

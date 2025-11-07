@@ -1,0 +1,1 @@
+{"level":"error","ts":"2025-11-07T22:35:23Z","logger":"trufflehog","msg":"error occurred with trufflehog updater 🐷","error":"cannot move binary (exit status 1)"}

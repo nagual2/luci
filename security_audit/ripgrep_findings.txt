@@ -1,0 +1,173 @@
+=== Manual Review with Ripgrep ===
+
+--- Searching for 'password' keyword ---
+libs/luci-lib-nixio/docsrc/nixio.lua:6
+libs/luci-lib-px5g/src/polarssl/x509.h:6
+applications/luci-app-snmpd/htdocs/luci-static/resources/view/snmpd/snmpd.js:3
+applications/luci-app-acl/htdocs/luci-static/resources/view/system/acl.js:15
+applications/luci-app-ttyd/htdocs/luci-static/resources/view/ttyd/config.js:2
+applications/luci-app-mjpg-streamer/htdocs/luci-static/resources/view/mjpg-streamer/mjpg-streamer.js:7
+applications/luci-app-openlist/htdocs/luci-static/resources/view/openlist/config.js:1
+applications/luci-app-libreswan/htdocs/luci-static/resources/view/libreswan/tunnels.js:1
+applications/luci-app-libreswan/htdocs/luci-static/resources/view/libreswan/globals.js:1
+applications/luci-app-transmission/htdocs/luci-static/resources/view/transmission.js:2
+applications/luci-app-openvpn/luasrc/model/cbi/openvpn-advanced.lua:4
+applications/luci-app-example/htdocs/luci-static/resources/view/example/form.js:3
+applications/luci-app-acme/htdocs/luci-static/resources/view/acme/acme.js:4
+applications/luci-app-crowdsec-firewall-bouncer/htdocs/luci-static/resources/view/crowdsec-firewall-bouncer/form.js:1
+applications/luci-app-radicale2/luasrc/model/cbi/radicale2/auth.lua:15
+applications/luci-app-radicale2/luasrc/model/cbi/radicale2/logging.lua:1
+applications/luci-app-radicale2/luasrc/model/cbi/radicale2/server.lua:1
+applications/luci-app-advanced-reboot/htdocs/luci-static/resources/view/system/advanced_reboot.js:1
+themes/luci-theme-bootstrap/htdocs/luci-static/resources/view/bootstrap/sysauth.js:1
+modules/luci-base/htdocs/luci-static/resources/form.js:3
+modules/luci-base/htdocs/luci-static/resources/ui.js:12
+modules/luci-base/htdocs/luci-static/resources/luci.js:4
+applications/luci-app-ocserv/luasrc/model/cbi/ocserv/user-config.lua:1
+applications/luci-app-ocserv/luasrc/model/cbi/ocserv/users.lua:2
+applications/luci-app-ocserv/luasrc/model/cbi/ocserv/main.lua:1
+applications/luci-app-frpc/htdocs/luci-static/resources/view/frpc.js:4
+modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:14
+modules/luci-lua-runtime/luasrc/sys.lua:3
+modules/luci-mod-system/htdocs/luci-static/resources/view/system/sshkeys.js:1
+modules/luci-mod-system/htdocs/luci-static/resources/view/system/password.js:23
+modules/luci-mod-system/htdocs/luci-static/resources/view/system/dropbear.js:2
+applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/mqtt.js:2
+applications/luci-app-travelmate/htdocs/luci-static/resources/view/travelmate/stations.js:19
+modules/luci-mod-rpc/luasrc/controller/rpc.lua:1
+applications/luci-app-strongswan-swanctl/htdocs/luci-static/resources/view/strongswan-swanctl/swanctl.js:1
+protocols/luci-proto-ncm/htdocs/luci-static/resources/protocol/ncm.js:2
+protocols/luci-proto-wireguard/htdocs/luci-static/resources/protocol/wireguard.js:3
+protocols/luci-proto-3g/htdocs/luci-static/resources/protocol/3g.js:2
+protocols/luci-proto-ppp/htdocs/luci-static/resources/protocol/pptp.js:2
+protocols/luci-proto-ppp/htdocs/luci-static/resources/protocol/l2tp.js:2
+protocols/luci-proto-ppp/htdocs/luci-static/resources/protocol/pppoa.js:2
+protocols/luci-proto-ppp/htdocs/luci-static/resources/protocol/ppp.js:2
+applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:5
+protocols/luci-proto-ppp/htdocs/luci-static/resources/protocol/pppoe.js:2
+protocols/luci-proto-vpnc/htdocs/luci-static/resources/protocol/vpnc.js:8
+protocols/luci-proto-ipv6/htdocs/luci-static/resources/protocol/6in4.js:2
+protocols/luci-proto-sstp/htdocs/luci-static/resources/protocol/sstp.js:2
+protocols/luci-proto-modemmanager/htdocs/luci-static/resources/protocol/modemmanager.js:4
+protocols/luci-proto-qmi/htdocs/luci-static/resources/protocol/qmi.js:2
+applications/luci-app-openwisp/htdocs/luci-static/resources/view/openwisp.js:1
+protocols/luci-proto-mbim/htdocs/luci-static/resources/protocol/mbim.js:2
+protocols/luci-proto-openfortivpn/htdocs/luci-static/resources/protocol/openfortivpn.js:2
+protocols/luci-proto-yggdrasil/htdocs/luci-static/resources/protocol/yggdrasil.js:2
+protocols/luci-proto-openconnect/htdocs/luci-static/resources/protocol/openconnect.js:4
+applications/luci-app-mosquitto/htdocs/luci-static/resources/view/mosquitto/mosquitto.js:4
+applications/luci-app-frps/htdocs/luci-static/resources/view/frps.js:1
+applications/luci-app-keepalived/htdocs/luci-static/resources/view/keepalived/peers.js:1
+applications/luci-app-keepalived/htdocs/luci-static/resources/view/keepalived/vrrp_instance.js:4
+applications/luci-app-nut/htdocs/luci-static/resources/view/nut/nut_server.js:2
+applications/luci-app-nut/htdocs/luci-static/resources/view/nut/nut_monitor.js:4
+applications/luci-app-coovachilli/htdocs/luci-static/resources/view/coovachilli/coovachilli.js:7
+applications/luci-app-pagekitec/htdocs/luci-static/resources/view/pagekitec.js:1
+applications/luci-app-aria2/htdocs/luci-static/resources/view/aria2/config.js:9
+
+--- Searching for 'secret' keyword ---
+libs/luci-lib-px5g/src/polarssl/sha1.h:2
+applications/luci-app-sshtunnel/htdocs/luci-static/resources/view/sshtunnel/ssh_servers.js:1
+applications/luci-app-libreswan/htdocs/luci-static/resources/view/libreswan/tunnels.js:3
+applications/luci-app-openvpn/luasrc/model/cbi/openvpn-advanced.lua:3
+applications/luci-app-openvpn/luasrc/model/cbi/openvpn-basic.lua:3
+modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:4
+applications/luci-app-openwisp/htdocs/luci-static/resources/view/openwisp.js:1
+applications/luci-app-coovachilli/htdocs/luci-static/resources/view/coovachilli/coovachilli.js:3
+applications/luci-app-aria2/htdocs/luci-static/resources/view/aria2/config.js:4
+applications/luci-app-pagekitec/htdocs/luci-static/resources/view/pagekitec.js:2
+
+--- Searching for 'api_key' keyword ---
+applications/luci-app-crowdsec-firewall-bouncer/htdocs/luci-static/resources/view/crowdsec-firewall-bouncer/form.js:1
+
+--- Searching for 'token' keyword ---
+applications/luci-app-cloudflared/htdocs/luci-static/resources/view/cloudflared/config.js:2
+libs/luci-lib-jsonc/src/jsonc.c:17
+libs/luci-lib-base/luasrc/util.lua:1
+contrib/package/ucode-mod-html/src/html.c:12
+applications/luci-app-firewall/htdocs/luci-static/resources/tools/firewall.js:12
+applications/luci-app-acme/htdocs/luci-static/resources/view/acme/acme.js:3
+applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:1
+applications/luci-app-radicale2/luasrc/model/cbi/radicale2/storage.lua:1
+applications/luci-app-xfrpc/htdocs/luci-static/resources/view/xfrpc.js:3
+applications/luci-app-upnp/htdocs/luci-static/resources/view/upnp/upnp.js:1
+applications/luci-app-upnp/htdocs/luci-static/resources/view/status/include/80_upnp.js:1
+modules/luci-base/src/contrib/lemon.c:96
+modules/luci-base/src/contrib/lempar.c:57
+modules/luci-base/htdocs/luci-static/resources/ui.js:13
+modules/luci-base/htdocs/luci-static/resources/validation.js:4
+modules/luci-base/htdocs/luci-static/resources/luci.js:7
+modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:3
+applications/luci-app-frpc/htdocs/luci-static/resources/view/frpc.js:2
+modules/luci-lua-runtime/src/contrib/lemon.c:96
+modules/luci-lua-runtime/src/contrib/lempar.c:57
+modules/luci-lua-runtime/luasrc/dispatcher.lua:2
+modules/luci-lua-runtime/luasrc/model/uci.lua:8
+modules/luci-lua-runtime/luasrc/template.lua:2
+modules/luci-compat/luasrc/cbi.lua:1
+modules/luci-compat/luasrc/cbi/datatypes.lua:3
+modules/luci-mod-rpc/luasrc/controller/rpc.lua:5
+applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:1
+applications/luci-app-frps/htdocs/luci-static/resources/view/frps.js:1
+applications/luci-app-aria2/htdocs/luci-static/resources/view/aria2/config.js:10
+applications/luci-app-dawn/htdocs/luci-static/resources/view/network/dawn.js:1
+applications/luci-app-lorawan-basicstation/htdocs/luci-static/resources/view/lorawan-basicstation/general.js:3
+
+--- Searching for AWS credentials ---
+No matches found
+
+--- Searching for private keys ---
+libs/luci-lib-px5g/src/library/x509write.c:    const char	key_beg[] = "-----BEGIN RSA PRIVATE KEY-----\n",
+libs/luci-lib-px5g/lua/px5g/util.lua:	key = "-----BEGIN RSA PRIVATE KEY-----",
+
+--- Searching for email patterns ---
+applications/luci-app-adblock-fast/htdocs/luci-static/resources/adblock-fast/status.js:stangri@melmac.ca
+applications/luci-app-adblock-fast/htdocs/luci-static/resources/view/adblock-fast/overview.js:stangri@melmac.ca
+applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:name@example.com
+applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:name@example.com
+applications/luci-app-bmx7/root/usr/lib/lua/luci/controller/bmx7.lua:pau@dabax.net
+applications/luci-app-bmx7/root/usr/lib/lua/luci/controller/bmx7.lua:roger.pueyo@guifi.net
+applications/luci-app-bmx7/root/usr/lib/lua/luci/controller/bmx7.lua:xm@subsignal.org
+applications/luci-app-bmx7/root/www/luci-static/resources/bmx7/js/polling.js:eskerda@gmail.com
+applications/luci-app-bmx7/root/www/luci-static/resources/bmx7/js/polling.js:pau@dabax.net
+applications/luci-app-cloudflared/htdocs/luci-static/resources/view/cloudflared/config.js:hilman0.0maulana@gmail.com
+applications/luci-app-cloudflared/htdocs/luci-static/resources/view/cloudflared/log.js:hilman0.0maulana@gmail.com
+applications/luci-app-cloudflared/htdocs/luci-static/resources/view/cloudflared/tunnels.js:stokito@gmail.com
+applications/luci-app-dockerman/luasrc/model/cbi/dockerman/configuration.lua:fe@dev.tdt.de
+applications/luci-app-https-dns-proxy/htdocs/luci-static/resources/https-dns-proxy/status.js:stangri@melmac.ca
+applications/luci-app-https-dns-proxy/htdocs/luci-static/resources/view/https-dns-proxy/overview.js:stangri@melmac.ca
+applications/luci-app-keepalived/htdocs/luci-static/resources/view/keepalived/globals.js:admin@example.com
+applications/luci-app-lldpd/htdocs/luci-static/resources/lldpd.js:a.kikin@tano-systems.com
+applications/luci-app-lldpd/htdocs/luci-static/resources/lldpd.js:newtwen+github@gmail.com
+applications/luci-app-lldpd/htdocs/luci-static/resources/view/lldpd/config.js:a.kikin@tano-systems.com
+applications/luci-app-lldpd/htdocs/luci-static/resources/view/lldpd/config.js:newtwen+github@gmail.com
+
+--- Searching for IP addresses ---
+applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/feeds.js:0.0.0.0
+applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/feeds.js:127.0.0.1
+applications/luci-app-attendedsysupgrade/htdocs/luci-static/resources/view/attendedsysupgrade/overview.js:192.168.1.1
+applications/luci-app-banip/htdocs/luci-static/resources/view/banip/setreport.js:192.168.0.1
+applications/luci-app-clamav/htdocs/luci-static/resources/view/clamav/clamav-milter.js:127.0.0.1
+applications/luci-app-clamav/htdocs/luci-static/resources/view/clamav/clamav.js:127.0.0.1
+applications/luci-app-coovachilli/htdocs/luci-static/resources/view/coovachilli/coovachilli.js:10.0.0.1
+applications/luci-app-coovachilli/htdocs/luci-static/resources/view/coovachilli/coovachilli.js:10.11.12.0
+applications/luci-app-coovachilli/htdocs/luci-static/resources/view/coovachilli/coovachilli.js:127.0.0.1
+applications/luci-app-coovachilli/htdocs/luci-static/resources/view/coovachilli/coovachilli.js:172.16.0.5
+applications/luci-app-coovachilli/htdocs/luci-static/resources/view/coovachilli/coovachilli.js:172.16.0.6
+applications/luci-app-coovachilli/htdocs/luci-static/resources/view/coovachilli/coovachilli.js:192.168.0.1
+applications/luci-app-coovachilli/htdocs/luci-static/resources/view/coovachilli/coovachilli.js:192.168.1.1
+applications/luci-app-coovachilli/htdocs/luci-static/resources/view/coovachilli/coovachilli.js:192.168.182.0
+applications/luci-app-coovachilli/htdocs/luci-static/resources/view/coovachilli/coovachilli.js:192.168.182.1
+applications/luci-app-dockerman/luasrc/model/cbi/dockerman/configuration.lua:0.0.0.0
+applications/luci-app-dockerman/luasrc/model/cbi/dockerman/configuration.lua:10.1.1.2
+applications/luci-app-dockerman/luasrc/model/cbi/dockerman/configuration.lua:172.17.0.1
+applications/luci-app-dockerman/luasrc/model/cbi/dockerman/container.lua:10.1.1.254
+applications/luci-app-dockerman/luasrc/model/cbi/dockerman/newcontainer.lua:8.8.8.8
+
+--- Searching for internal/engineering URLs ---
+applications/luci-app-minidlna/htdocs/luci-static/resources/view/minidlna.js:		return L.resolveDefault(fs.exec_direct('/usr/bin/wget', [ '-q', 'http://127.0.0.1:%d/'.format(port), '-O', '-' ]), null)
+applications/luci-app-minidlna/htdocs/luci-static/resources/view/status/include/80_minidlna.js:			return L.resolveDefault(fs.exec_direct('/usr/bin/wget', [ '-q', 'http://127.0.0.1:%d/'.format(port), '-O', '-' ]), null);
+applications/luci-app-ttyd/htdocs/luci-static/resources/view/ttyd/config.js:		s.option(form.Flag, 'url_arg', _('Allow URL args'), _('Allow client to send command line arguments in URL (eg: http://localhost:7681?arg=foo&arg=bar)'));
+applications/luci-app-tinyproxy/htdocs/luci-static/resources/view/tinyproxy/tinyproxy.js:var url = 'http://127.0.0.1:%d/';
+applications/luci-app-upnp/htdocs/luci-static/resources/view/upnp/upnp.js:		o.placeholder = 'http://192.168.1.1/';
+applications/luci-app-coovachilli/htdocs/luci-static/resources/view/coovachilli/coovachilli.js:		so.placeholder = 'http://192.168.182.1/welcome.html';
